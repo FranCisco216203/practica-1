@@ -11,3 +11,6 @@ int main()
     } else{
    printf("el numero %d esta fuera del rango %d - %d\n",x,inicio,final); }
 }
+
+
+
