@@ -13,7 +13,7 @@
 void caratula(){
     int numero=23;
     printf("*****************************************************\n");
-    printf("* hola mi nombre es francisco tengo %d años de edad *\n",numero );
+    printf("* hola mi nombre es francisco tengo %d aÃ±os de edad *\n",numero );
     printf("* estudio en la UAM de iztapalapa                   *\n");
     printf("*                     PRACTICA 1                    *\n");
     printf("*****************************************************\n\n");

@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Prueba" />
+		<Option title="Practica_2_4_Seleccion_Rango" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Prueba" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Practica_2_4_Seleccion_Rango" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Prueba" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Practica_2_4_Seleccion_Rango" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -35,7 +35,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
-			<lib_finder disable_auto="1" />
+			<code_completion />
+			<envvars />
+			<debugger />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
