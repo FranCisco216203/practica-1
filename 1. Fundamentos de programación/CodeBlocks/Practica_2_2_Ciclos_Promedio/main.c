@@ -65,35 +65,32 @@ void tiposDatos(){
     short sMinimo = -32768; // Rango de short [-32,768 <--> 32,767]
     short sMaximo = 32767;
 
-    long lMinimo = -2147483648; // Rango de long [2,147,483,648 <--> 2,147,483,647]
-    long lMaximo = 214748364;
+    int iMinimo = -2147483648; // Rango de int [2,147,483,648 <--> 2,147,483,647]
+    int iMaximo = 2147483647;
 
-    float fMinimo = -3.402923E+38; // [-3.402923E+38 <--> 3.402923E+38]
-    float fMaximo = -3.402923E+38;
+    long lMinimo = -2147483648; // Rango de long [2,147,483,648 <--> 2,147,483,647]
+    long lMaximo = 2147483647;
+
+    float fMinimo = -3.402823E+38; // [-3.402823E+38 <--> 3.402823E+38]
+    float fMaximo =  3.402823E+38; // Hasta 6 decimales
 
     double dMinimo = -1.7976931E+308; // [-1.7976931E+308 <--> 1.7976931E+308]
-    double dMaximo = 1.7976931E+308;
-    
-    long double ldMinimo = -1.2E+4932; // [-1.2E+4932 <--> +1.2E+4932]
-    long double ldMaximo = 1.2E+4932;
+    double dMaximo = 1.7976931E+308; // Hasta 12 decimales
 
-    char cMinimo = 'c'; // [-128 <--> 127]
-    char cMaximo = 'c'; // [-128 <--> 127]
+    char cMinimo = -128; // [-128 <--> 127]
+    char cMaximo = 127; // Lo caracteres se encuentran entre el 32 al 126
 
-    /*
-    int i = 10; // [<-->]
-    */
-    printf("El valor de un short es [%d, %d]\n", sMinimo, sMaximo);
-    printf("El valor de un long es [%d, %d]\n", lMinimo, lMaximo);
-    printf("El valor de un float es [%f, %f]\n", fMinimo, fMaximo);
-    printf("El valor de un double es [%f, %f]\n", dMinimo, dMaximo);
-    printf("El valor de un long double es [%ld, %ld]\n", ldMinimo, ldMaximo);
+    // %d para short, int, long
+    // %f para float y double, %.1f para una cifra significativa
+    // %c para char
+    // %s para cadenas de char
 
-    printf("El valor de un float es [%d, %d]\n", cMinimo, cMaximo);
+    printf("Los valores de un short estan entre [%d, %d] y ocupan en memoria %d bytes\n\n", sMinimo, sMaximo, sizeof(short));
+    printf("Los valores de un int estan entre [%d, %d] y ocupan en memoria %d bytes\n\n", iMinimo, iMaximo, sizeof(int));
+    printf("Los valores de un long estan entre [%d, %d] y ocupan en memoria %d bytes\n\n", lMinimo, lMaximo, sizeof(long));
+    printf("Los valores de un float estan entre [%f, %f] y ocupan en memoria %d bytes\n\n", fMinimo, fMaximo, sizeof(float));
+    printf("Los valores de un double estan entre [%f, %f] y ocupan en memoria %d bytes\n\n", dMinimo, dMaximo, sizeof(double));
 
-    /*printf("El valor de i es %d\n", );
-    printf("El valor de f es %d\n", );
-    printf("El valor de d es %d\n", );
-    printf("El valor de c es %d\n", );
-    */
+    printf("Los valores de un char estan entre los valores [%d, %d] asociado a los caracteres [%c, %c] y ocupa en memoria %d byte\n", cMinimo, cMaximo, cMinimo, cMaximo, sizeof(char));
+    printf("El caracter %c equivale a %d en ascii: %d = %c \n", 35, 35, 35, 35);
 }
