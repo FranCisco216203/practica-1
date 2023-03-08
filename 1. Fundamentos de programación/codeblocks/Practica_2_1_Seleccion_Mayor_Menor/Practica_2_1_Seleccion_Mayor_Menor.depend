@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1678304357 source:c:\users\cisco\documents\github\practica-1\1. fundamentos de programación\codeblocks\practica_2_1_seleccion_mayor_menor\main.c
+	<stdio.h>
+	<stdlib.h>
+
