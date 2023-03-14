@@ -33,14 +33,14 @@ int main()
     printf("la verlocidad sera igual a %.3f \n", velocidad);*/
 
     printf("CALCULO DE VELOCIDAD\n");
-    int distancia;
-    int tiempo;
-    printf("sea una distancia = \n");
-    scanf("%f",distancia);
-    printf("y sea un tiempo = \n");
-    scanf("%f",tiempo);
+    float distancia;
+    float tiempo;
+    printf("sea una distancia = ");
+    scanf("%f",&distancia);
+    printf("y sea un tiempo = ");
+    scanf("%f",&tiempo);
     float velocidad =distancia/tiempo;
-    printf("la verlocidad sera igual a %.3f \n", velocidad);
+    printf("la velocidad sera igual a %f \n", velocidad);
 
     return 0;
 }
