@@ -1,4 +1,4 @@
-/* INFORMACION
+/* INFORMACION  // RODRIGO: Falta llenar la información
 *
 * MATERIA:
 * PROGRAMADOR:
@@ -9,7 +9,7 @@
 * EJECUTAR:
 */
 
-/* ALGORITMO
+/* ALGORITMO  // RODRIGO: Agregar al algoritmo de la versión 2 de este programa, la carátula
     1. El programa muestra el titulo "mayor y menor".
     2. el programa crea la primera variable he asigna un valor a esa variable
     3. el programa crea la segunda variable he asigna un valor a esa variable
@@ -25,7 +25,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+void mayorIfSimple(int a, int b){
+    // Escribir aquí el código correspondiente y llamar este método desde el main
+}
+
+void mayorIfAnidad(int a, int b){
+    // Escribir aquí el código correspondiente y llamar este método desde el main
+}
+
+int main(){  // RODRIGO: Meter en un método las dos formas de usar el if: simple y anidado
     /*printf("MAYOR O MENOR\n");
     int A= 5;
     int B= 5;
@@ -55,7 +63,7 @@ int main(){
     }*/
     printf("MAYOR O MENOR\n");
     int A;
-    int B;
+    int B;  // RODRIGO: se pueden definir variables en una misma línea, ejemplo: int a,b,c,d,e;
     printf( "el valor A es  " );
     scanf("%d",&A);
     printf( "el valor B es igual a ");
@@ -71,5 +79,8 @@ int main(){
         }
     }
 
-    return 0;}
+    return 0;}  // RODRIGO: Acomodar en una línea indepentiende la llave
 
+    // RODRIGO: Muy bien, el programa funciona correctamente
+    //          Solo sería modificar el agoritmo para tener una versión 2 mejorada
+    //          y después programarla

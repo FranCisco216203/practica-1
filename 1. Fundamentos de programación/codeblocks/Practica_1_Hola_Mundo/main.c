@@ -1,4 +1,4 @@
-/* INFORMACION
+/* INFORMACION // RODRIGO: falta llenar la información
 *
 * MATERIA:
 * PROGRAMADOR:
@@ -9,7 +9,7 @@
 * EJECUTAR:
 */
 
-/* ALGORITMO
+/* ALGORITMO // RODRIGO: Falta escribir el algoritmo
     1. El programa muestra el titulo "".
     2.
     3.
@@ -25,4 +25,4 @@ int main()
 {
     printf("Hello world!\n");
     return 0;
-}
+}  // RODRIGO: El programa funciona correctamente
