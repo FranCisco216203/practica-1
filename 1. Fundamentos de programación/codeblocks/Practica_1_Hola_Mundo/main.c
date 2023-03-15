@@ -10,11 +10,9 @@
 */
 
 /* ALGORITMO
-    1. El programa muestra el titulo "".
-    2.
-    3.
-    4.
-    5. El programa termina.
+    1. El programa muestra el titulo "hola mundo".
+    2. el programa imprime el titulo
+    3. El programa termina.
 
 */
 
@@ -23,6 +21,6 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    printf("hola mundo\n");
     return 0;
 }

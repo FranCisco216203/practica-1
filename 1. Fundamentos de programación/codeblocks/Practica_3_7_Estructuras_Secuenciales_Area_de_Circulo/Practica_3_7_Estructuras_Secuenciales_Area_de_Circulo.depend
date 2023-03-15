@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1678854544 source:c:\users\cisco\documents\github\practica-1\1. fundamentos de programación\codeblocks\practica_3_7_estructuras_secuenciales_area_de_circulo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

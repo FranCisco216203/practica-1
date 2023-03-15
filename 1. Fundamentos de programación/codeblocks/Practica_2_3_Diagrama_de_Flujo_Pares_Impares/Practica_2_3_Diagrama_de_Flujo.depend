@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1678163199 source:c:\users\cisco\documents\github\practica-1\1. fundamentos de programación\codeblocks\practica_2_3_diagrama_de_flujo_pares_impares\main.c
+	<stdio.h>
+	<stdlib.h>
+

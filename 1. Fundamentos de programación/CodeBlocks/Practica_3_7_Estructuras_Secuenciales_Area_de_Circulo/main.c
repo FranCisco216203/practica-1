@@ -11,9 +11,9 @@
 
 /* ALGORITMO
     1. El programa muestra el titulo "Calculo del area del circulo".
-    2.
-    3.
-    4.
+    2.el programa crea una variable para el primer numero
+    3.el programa crea una variable para el segundo nmero
+    4.el programa multiplica la primera y segunda variable
     5. El programa termina.
 
 */
@@ -24,10 +24,14 @@
 
 int main()
 {
-    int pi_int = 3;
-    float pi_float = 3.1416;
+    float pi = 3.1416;
+    float radio;
+    printf("sacar el area de un circulo \n");
+    printf("sea un circulo con radio igual a:");
+    scanf("%f",&radio);
+    float area = pi*(radio*radio);
+    printf(" el area es igual a %f",area);
 
-    printf("%d, %f", pi_int, pi_float);
 
     return 0;
 }
