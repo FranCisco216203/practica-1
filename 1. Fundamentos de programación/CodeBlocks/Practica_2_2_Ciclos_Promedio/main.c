@@ -1,4 +1,4 @@
-/* INFORMACION: CALCULAR PROMEDIO DE 3 NÚMEROS
+/* INFORMACION: CALCULAR PROMEDIO DE 3 NÚMEROS  // RODRIGO: Falta llenar la información
 *
 * MATERIA:
 * PROGRAMADOR:
@@ -9,7 +9,7 @@
 * EJECUTAR:
 */
 
-/* ALGORITMO
+/* ALGORITMO  // RODRIGO: Agregar la carátula
     
     0. EL programa muestra un mensaje que dice: "PROMEDIO DE 3 NUMEROS"
     1. EL programa crea una variable para el primero número
@@ -28,6 +28,8 @@
 #include <stdio.h>
 
 void tiposDatos();
+
+// RODRIGO: No se realiza el promedio de los 3 números, está comentado el código
 
 int main()
 {
