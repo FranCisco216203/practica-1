@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1685737797 source:c:\users\cisco\documents\github\practica-1\1. fundamentos de programación\codeblocks\practica_3_9_estructuras_secuenciales_calculo_de_salario\main.c
+	<stdio.h>
+	<stdlib.h>
+
