@@ -1,3 +1,8 @@
+/**
+ * FALTA AGREGAR CARATULA
+ * FALTA LLENAR LA INFORMACIÓN DEL DESARROLLADOR, MATERIA, CONTACTO, FECHA...
+ * */
+
 /* INFORMACION
 *
 * MATERIA:
@@ -22,6 +27,6 @@
 
 int main()
 {
-    printf("Hola mundo\n");
+    printf("Hola mundo\n"); // PUEDES DAR MÁS INFORMACIÓN EN LA IMPRESIÓN, "HOLA MUNDO DESDE EL LENGUAJE C HECHO POR ..."
     return 0;
 }

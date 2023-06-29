@@ -1,3 +1,8 @@
+/**
+ * FALTA AGREGAR CARATULA
+ * FALTA LLENAR LA INFORMACIÓN DEL DESARROLLADOR, MATERIA, CONTACTO, FECHA...
+ * */
+
 /* INFORMACION
 *
 * MATERIA:
@@ -34,7 +39,7 @@ int main()
     scanf("%f",&diario);
     double multiplicacion= diario*365;
     double salario= multiplicacion/12;
-    printf("el salario es igual a %f",salario);
+    printf("el salario es igual a %f",salario); // SER MÁS DESCRIPTIVO EN LA IMPRESIÓN, EL SALARIO MENSUAL, SEMANAL, ANUAL
 
 
     return 0;
